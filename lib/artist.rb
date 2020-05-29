@@ -21,5 +21,5 @@ class Artist
   def self.song_count
     #get # of all songs associated w artist
     Song.all.select {|song| song.artist != nil}.length
-
+  end
 end
