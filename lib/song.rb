@@ -5,6 +5,10 @@ class Song
     @name = name
   end
 
+  def self.all
+    @songs
+  end
+
   def add_artist(artist)
     artist.songs << self
   end
