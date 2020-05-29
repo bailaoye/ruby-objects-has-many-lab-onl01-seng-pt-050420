@@ -17,6 +17,7 @@ class Song
   end
 
   def artist_name
+    #logic here : condition? if true : if false
     self.artist ? self.artist.name : nil
   end
 end
