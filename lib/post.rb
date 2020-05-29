@@ -18,6 +18,6 @@ class Post
 
   def author_title
     #logic here : condition? if true : if false
-    self.author ? self.author.title : nil
+    self.author ? self.author.name : nil
   end
 end
