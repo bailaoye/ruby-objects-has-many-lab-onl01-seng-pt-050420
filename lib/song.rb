@@ -1,6 +1,7 @@
 class Song
-  def initialize(name)
+  def initialize(name, artist_name)
     @name = name
+    @artist_name = artist_name
   end
 
   def name
@@ -10,4 +11,5 @@ class Song
   def artist_name
     @artist_name
   end
+
 end
