@@ -1,9 +1,9 @@
 class Post
-  attr_accessor :name, :author
+  attr_accessor :title, :author
   @@all = []
 
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
     @@all << self
   end
 
@@ -16,8 +16,8 @@ class Post
     author.songs << self
   end
 
-  def author_name
+  def author_title
     #logic here : condition? if true : if false
-    self.author ? self.author.name : nil
+    self.author ? self.author.title : nil
   end
 end
