@@ -9,5 +9,4 @@ class Song
     artist.songs << self
   end
 
-
 end
