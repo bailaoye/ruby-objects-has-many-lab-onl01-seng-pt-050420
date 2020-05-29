@@ -20,6 +20,6 @@ class Author
   #class method
   def self.post_count
     #get # of all posts associated w author
-    post.all.select {|post| post.author != nil}.length
+    Post.all.select {|post| post.author != nil}.length
   end
 end
